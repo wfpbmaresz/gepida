@@ -1,0 +1,9 @@
+/*
+* File: app.js
+* Author: Szőllősi-Maruzs Eszter
+* Copyright: 2023, Szőllősi-Maruzs Eszter
+* Group: Szoft I/1-E
+* Date: 2023-03-11
+* Github: https://github.com/wfpbmaresz/
+* Licenc: GNU GPL
+*/
