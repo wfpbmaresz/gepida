@@ -9,6 +9,7 @@
 -->
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,29 +18,38 @@
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    <nav class="navbar navbar-light bg-light">
-        <span class="navbar-text">
-            “A testem nem lesz más teremtmények sírja. ” - Leonardo Da Vinci
-        </span>
-      </nav>
 
-    
+    <nav class="navbar fixed-top navbar-light bg-light container mt-3 mb-3">
+        <a class="navbar-brand" href="@">“A testem nem lesz más teremtmények sírja.” - Leonardo Da Vinci</a>
+    </nav>
+    <div class="container mt-3 mb-3">
+        <table id="bikes" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Név</th>
+                    <th>Kerék</th>
+                    <th>Használat</th>
+                    <th>Ár</th>
+                </tr>
+            </thead>
+            <!-- <tbody id="bikes">
 
-
-
-
-
+            </tbody> -->
+        </table>
+    </div>
 
 
 
     <footer class="bg-light mt-5 border-top py-5 text-secondary">
         <div class="container text-center">
-            Szőllősi-Maruzs Eszter; Szoft I/1-E; 2023.03.11.</footer>
-        </div>
+            Szőllősi-Maruzs Eszter; Szoft I/1-E; 2023.03.11.
+    </footer>
+    </div>
 
-        <script src="app.js"></script>
-        <script src="bootstrap.js"></script>
+    <script src="app.js"></script>
+    <script src="bootstrap.js"></script>
 </body>
+
 </html>
